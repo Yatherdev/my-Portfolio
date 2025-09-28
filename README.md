@@ -1,4 +1,4 @@
-# 🌟 Ahmed Yasser — Portfolio
+# 🌟 My Portfolio 
 
 This is my personal *portfolio website, built with **HTML, CSS, and JavaScript, to showcase my background, skills, projects, and achievements as a **Flutter Developer*.
 
@@ -64,14 +64,8 @@ Received an *Excellent grade* and recognition from faculty professors.
 - *Mobile Development:* Flutter, Dart  
 - *Architecture:* Clean Architecture  
 - *Version Control:* Git & GitHub  
-- *Other Tools:* Lottie, Hive, SQLite  
-
----
-
-## 📸 Preview
-
-![Portfolio Screenshot](assets/movieapp1.jpg)
-
+- *Other Tools:* Lottie, Hive, SQLite
+- 
 ---
 
 ## 📬 Contact
@@ -82,4 +76,5 @@ Received an *Excellent grade* and recognition from faculty professors.
 
 ---
 
-✨ Designed & Developed by *Ahmed Yasser*
+✨ Designed & Developed by *Ahmed Yasser Elsayed*
+
