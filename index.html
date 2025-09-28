@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ahmed Yasser — Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="top-nav">
+    <div class="nav-container">
+      <button type="button" class="nav-btn" data-target="home" aria-pressed="true">
+        <i class="fa-solid fa-house"></i>
+      </button>
+      <button type="button" class="nav-btn" data-target="about">
+        <i class="fa-solid fa-user"></i>
+      </button>
+      <button type="button" class="nav-btn" data-target="skills">
+        <i class="fa-solid fa-star"></i>
+      </button>
+      <button type="button" class="nav-btn" data-target="projects">
+        <i class="fa-solid fa-diagram-project"></i>
+      </button>
+      <button type="button" class="nav-btn" data-target="education">
+        <i class="fa-solid fa-graduation-cap"></i>
+      </button>
+      <button type="button" class="nav-btn" data-target="contact">
+        <i class="fa-solid fa-envelope"></i>
+      </button>
+    </div>
+  </nav>
+
+  <main id="app">
+    <section id="home" class="section" aria-label="Home">
+      <div class="section-title-card" data-aos="fade-up">Home</div>
+      <div class="inner home-row">
+        <div class="panel home-text-panel" data-aos="fade-right">
+          <div class="eyebrow">HI THERE!</div>
+          <h1 class="name">I'M <span class="highlight">AHMED YASSER</span></h1>
+          <div class="title">Flutter Developer</div>
+          <p class="usp">Building high-quality, scalable Flutter apps with a passion for clean code and seamless user experiences.</p>
+          <div class="button-container">
+            <button id="more-about-btn" class="btn more-about" data-target="about">
+              <i class="fas fa-user"></i> More About Me
+            </button>
+            <a href="assets/ahmed-yasser-cv.pdf" id="cv-download-btn" class="btn cv-link" download>
+              <i class="fas fa-download"></i> Download CV
+            </a>
+          </div>
+        </div>
+        <div class="panel home-photo-panel" data-aos="fade-left">
+          <div class="photo-frame" id="profileFrame">
+            <img src="assets/mypic.jpg" alt="Ahmed Yasser" id="profileImg">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section" aria-label="About">
+      <div class="section-title-card" data-aos="fade-up">About Me</div>
+      <div class="inner single-col">
+        <div class="card full-width-card" data-aos="fade-up">
+          <div id="aboutTyping" class="typing-intro"></div>
+          <div class="about-content" id="aboutContent">
+            <div class="code-block">
+              <div class="code-line" data-aos="fade-right" data-aos-delay="100">
+                <span class="code-comment">// My story begins with a spark of curiosity in technology...</span>
+              </div>
+              <div class="code-line" data-aos="fade-right" data-aos-delay="200">
+                <span class="code-keyword">class</span> <span class="code-class">MyDeveloperJourney</span> {
+              </div>
+              <div class="code-line indent" data-aos="fade-right" data-aos-delay="300">
+                <span class="code-comment">// I am a passionate Flutter developer with a strong love for programming and design that started at an early age.</span>
+              </div>
+              <div class="code-line indent" data-aos="fade-right" data-aos-delay="300">
+                <span class="code-comment">// My journey in programming began during high school, when I realized how rapidly the world was shifting toward technology.</span>
+              </div>
+              <div class="code-line indent" data-aos="fade-right" data-aos-delay="400">
+                <span class="code-keyword">String</span> earlyPassion = <span class="code-string">"Programming & Design from High School"</span>;
+              </div>
+              <div class="code-line indent" data-aos="fade-right" data-aos-delay="500">
+                <span class="code-comment">// Although my academic studies in Computer Science mainly focused on data science, databases, and data mining,</span>
+              </div>
+              <div class="code-line indent" data-aos="fade-right" data-aos-delay="500">
+                <span class="code-comment">// I was always drawn to mobile and web development.</span>
+              </div>
+              <div class="code-line indent" data-aos="fade-right" data-aos-delay="500">
+                <span class="code-keyword">List</span>&lt;<span class="code-type">String</span>&gt; academicFocus = [<span class="code-string">"Data Science"</span>, <span class="code-string">"Databases"</span>, <span class="code-string">"Data Mining"</span>];
+              </div>
+              <div class="code-line indent" data-aos="fade-right" data-aos-delay="500">
+                <span class="code-keyword">String</span> trueInterest = <span class="code-string">"Mobile & Web Development"</span>;
+              </div>
+              <div class="code-line indent" data-aos="fade-right" data-aos-delay="600">
+                <span class="code-comment">// My turning point came when I attended a university event where Flutter was introduced as the future of cross-platform development.</span>
+              </div>
+              <div class="code-line indent" data-aos="fade-right" data-aos-delay="600">
+                <span class="code-comment">// I immediately explored it, discovered its potential, and decided to dive deeper.</span>
+              </div>
+              <div class="code-line indent" data-aos="fade-right" data-aos-delay="600">
+                <span class="code-keyword">void</span> <span class="code-method">turningPoint</span>() {
+              </div>
+              <div class="code-line indent indent" data-aos="fade-right" data-aos-delay="600">
+                discovered = <span class="code-string">"Flutter at University Event"</span>;
+              </div>
+              <div class="code-line indent indent" data-aos="fade-right" data-aos-delay="600">
+                decision = <span class="code-string">"Dive Deeper into Cross-Platform Dev"</span>;
+              </div>
+              <div class="code-line indent" data-aos="fade-right" data-aos-delay="600">
+                }
+              </div>
+              <div class="code-line indent" data-aos="fade-right" data-aos-delay="700">
+                <span class="code-comment">// I enrolled in a Flutter course (CCIC) accredited by Mansoura University, where I gained hands-on experience and built several practical projects.</span>
+              </div>
+              <div class="code-line indent" data-aos="fade-right" data-aos-delay="700">
+                <span class="code-comment">// Later, my graduation project—built primarily with Flutter—was a successful medical application that received an Excellent grade.</span>
+              </div>
+              <div class="code-line indent" data-aos="fade-right" data-aos-delay="700">
+                <span class="code-keyword">void</span> <span class="code-method">educationMilestones</span>() {
+              </div>
+              <div class="code-line indent indent" data-aos="fade-right" data-aos-delay="700">
+                enrolled = <span class="code-string">"Flutter Course (CCIC) - Mansoura University"</span>;
+              </div>
+              <div class="code-line indent indent" data-aos="fade-right" data-aos-delay="700">
+                projectsBuilt = <span class="code-string">"Several Practical Projects"</span>;
+              </div>
+              <div class="code-line indent indent" data-aos="fade-right" data-aos-delay="700">
+                graduationProject = <span class="code-string">"Medical App with Flutter"</span>;
+              </div>
+              <div class="code-line indent indent" data-aos="fade-right" data-aos-delay="700">
+                grade = <span class="code-string">"Excellent"</span>;
+              </div>
+              <div class="code-line indent" data-aos="fade-right" data-aos-delay="700">
+                }
+              </div>
+              <div class="code-line indent" data-aos="fade-right" data-aos-delay="800">
+                <span class="code-comment">// After graduating and completing military service, I worked in the timber trading business.</span>
+              </div>
+              <div class="code-line indent" data-aos="fade-right" data-aos-delay="800">
+                <span class="code-comment">// There, I faced real challenges with calculations, data loss, and human errors in daily operations.</span>
+              </div>
+              <div class="code-line indent" data-aos="fade-right" data-aos-delay="800">
+                <span class="code-comment">// These issues inspired me to create a comprehensive business application that helps timber traders manage invoices, daily transactions,</span>
+              </div>
+              <div class="code-line indent" data-aos="fade-right" data-aos-delay="800">
+                <span class="code-comment">// employee salaries, bonuses, client accounts (cash & credit), and multi-branch operations.</span>
+              </div>
+              <div class="code-line indent" data-aos="fade-right" data-aos-delay="800">
+                <span class="code-comment">// The app also allows invoice sharing with clients, ensuring accuracy, transparency, and security in financial management.</span>
+              </div>
+              <div class="code-line indent" data-aos="fade-right" data-aos-delay="800">
+                <span class="code-keyword">void</span> <span class="code-method">professionalExperience</span>() {
+              </div>
+              <div class="code-line indent indent" data-aos="fade-right" data-aos-delay="800">
+                postGrad = <span class="code-string">"Timber Trading Business after Military Service"</span>;
+              </div>
+              <div class="code-line indent indent" data-aos="fade-right" data-aos-delay="800">
+                challengesFaced = [<span class="code-string">"Calculations"</span>, <span class="code-string">"Data Loss"</span>, <span class="code-string">"Human Errors"</span>];
+              </div>
+              <div class="code-line indent indent" data-aos="fade-right" data-aos-delay="800">
+                inspiredCreation = <span class="code-string">"Comprehensive Business App for Timber Traders"</span>;
+              </div>
+              <div class="code-line indent indent" data-aos="fade-right" data-aos-delay="800">
+                appFeatures = [<span class="code-string">"Invoices"</span>, <span class="code-string">"Daily Transactions"</span>, <span class="code-string">"Employee Salaries & Bonuses"</span>, <span class="code-string">"Client Accounts (Cash & Credit)"</span>, <span class="code-string">"Multi-Branch Operations"</span>, <span class="code-string">"Invoice Sharing"</span>];
+              </div>
+              <div class="code-line indent indent" data-aos="fade-right" data-aos-delay="800">
+                benefits = <span class="code-string">"Accuracy, Transparency, Security"</span>;
+              </div>
+              <div class="code-line indent" data-aos="fade-right" data-aos-delay="800">
+                }
+              </div>
+              <div class="code-line indent" data-aos="fade-right" data-aos-delay="900">
+                <span class="code-comment">// During my military service, I wanted to stay up-to-date with the latest technologies, so I joined the Digital Egypt Pioneers Initiative (DEPI).</span>
+              </div>
+              <div class="code-line indent" data-aos="fade-right" data-aos-delay="900">
+                <span class="code-comment">// This helped me adapt to recent updates in the tech field, expand my knowledge, and further strengthen my skills.</span>
+              </div>
+              <div class="code-line indent" data-aos="fade-right" data-aos-delay="900">
+                <span class="code-keyword">void</span> <span class="code-method">continuousLearning</span>() {
+              </div>
+              <div class="code-line indent indent" data-aos="fade-right" data-aos-delay="900">
+                duringService = <span class="code-string">"Joined DEPI (Digital Egypt Pioneers Initiative)"</span>;
+              </div>
+              <div class="code-line indent indent" data-aos="fade-right" data-aos-delay="900">
+                outcomes = <span class="code-string">"Adapted to Tech Updates, Expanded Knowledge, Strengthened Skills"</span>;
+              </div>
+              <div class="code-line indent" data-aos="fade-right" data-aos-delay="900">
+                }
+              </div>
+              <div class="code-line indent" data-aos="fade-right" data-aos-delay="1000">
+                <span class="code-comment">// Today, I continue to improve my timber trading application, aiming to make it a powerful tool that supports traders in the industry</span>
+              </div>
+              <div class="code-line indent" data-aos="fade-right" data-aos-delay="1000">
+                <span class="code-comment">// and helps them avoid losses caused by mistakes or fraud.</span>
+              </div>
+              <div class="code-line indent" data-aos="fade-right" data-aos-delay="1000">
+                <span class="code-comment">// My goal is to keep building impactful solutions that solve real problems and add value to businesses.</span>
+              </div>
+              <div class="code-line indent" data-aos="fade-right" data-aos-delay="1000">
+                <span class="code-keyword">String</span> currentGoal = <span class="code-string">"Improve App & Build Impactful Solutions"</span>;
+              </div>
+              <div class="code-line" data-aos="fade-right" data-aos-delay="1100">
+                }
+              </div>
+            </div>
+          </div>
+          <button id="seeMoreBtn" class="btn btn-outline see-more" style="display: none;">See More</button>
+        </div>
+      </div>
+    </section>
+/*Skills*\
+    <section id="skills" class="section" aria-label="Skills">
+      <div class="section-title-card" data-aos="fade-up">Skills</div>
+      <div class="inner single-col">
+        <div class="card" data-aos="fade-up">
+          <p class="muted">Core technologies, architecture, and tools I use daily.</p>
+          <div class="skills-container">
+            <div class="skills-grid">
+              <div class="skill-card" data-tooltip="Cross-platform app development framework">
+                <div class="skill-icon shiver">
+                  <i class="fa-brands fa-google-play fa-2x"></i>
+                </div>
+                <div class="skill-label">Flutter</div>
+                <p class="skill-desc">Cross-platform app development with rich UI.</p>
+              </div>
+              <div class="skill-card" data-tooltip="Programming language for Flutter apps">
+                <div class="skill-icon pulse">
+                  <i class="fa-solid fa-code fa-2x"></i>
+                </div>
+                <div class="skill-label">Dart</div>
+                <p class="skill-desc">Fast and flexible language for mobile apps.</p>
+              </div>
+              <div class="skill-card" data-tooltip="Backend and authentication services">
+                <div class="skill-icon rotate">
+                  <i class="fa-brands fa-firefox-browser fa-2x"></i>
+                </div>
+                <div class="skill-label">Firebase</div>
+                <p class="skill-desc">Real-time database and auth solutions.</p>
+              </div>
+              <div class="skill-card" data-tooltip="Local database storage">
+                <div class="skill-icon float">
+                  <i class="fa-solid fa-database fa-2x"></i>
+                </div>
+                <div class="skill-label">Hive / SQLite</div>
+                <p class="skill-desc">Efficient local data management.</p>
+              </div>
+            </div>
+            <div class="skills-grid">
+              <div class="skill-card" data-tooltip="Version control and collaboration">
+                <div class="skill-icon spin-slow">
+                  <i class="fa-brands fa-github fa-2x"></i>
+                </div>
+                <div class="skill-label">GitHub</div>
+                <p class="skill-desc">Code versioning and team collaboration.</p>
+              </div>
+              <div class="skill-card" data-tooltip="Structured app architecture">
+                <div class="skill-icon wobble">
+                  <i class="fa-solid fa-layer-group fa-2x"></i>
+                </div>
+                <div class="skill-label">Clean Architecture</div>
+                <p class="skill-desc">Organized and scalable code structure.</p>
+              </div>
+              <div class="skill-card" data-tooltip="API integration">
+                <div class="skill-icon blink">
+                  <i class="fa-solid fa-network-wired fa-2x"></i>
+                </div>
+                <div class="skill-label">RESTful APIs</div>
+                <p class="skill-desc">Connecting apps to external services.</p>
+              </div>
+              <div class="skill-card" data-tooltip="Adaptive design">
+                <div class="skill-icon float">
+                  <i class="fa-solid fa-mobile-screen-button fa-2x"></i>
+                </div>
+                <div class="skill-label">Responsive UI / UX</div>
+                <p class="skill-desc">User-friendly designs for all devices.</p>
+              </div>
+            </div>
+            <div class="tools-steps">
+              <h3>Details & Tools</h3>
+              <div class="tools-grid">
+                <div class="skill-card" data-tooltip="State management tools">
+                  <div class="skill-icon pulse">
+                    <i class="fa-solid fa-cogs fa-2x"></i>
+                  </div>
+                  <div class="skill-label">State Management</div>
+                  <p class="skill-desc">Cubit, BLoC, and Provider.</p>
+                </div>
+                <div class="skill-card" data-tooltip="Generate and print PDFs">
+                  <div class="skill-icon rotate">
+                    <i class="fa-solid fa-file-pdf fa-2x"></i>
+                  </div>
+                  <div class="skill-label">PDF Generation</div>
+                  <p class="skill-desc">Creating and printing PDF reports.</p>
+                </div>
+                <div class="skill-card" data-tooltip="Unit and integration testing">
+                  <div class="skill-icon shiver">
+                    <i class="fa-solid fa-vial fa-2x"></i>
+                  </div>
+                  <div class="skill-label">Testing</div>
+                  <p class="skill-desc">Unit and integration testing practices.</p>
+                </div>
+                <div class="skill-card" data-tooltip="Continuous integration basics">
+                  <div class="skill-icon float">
+                    <i class="fa-solid fa-code-branch fa-2x"></i>
+                  </div>
+                  <div class="skill-label">CI Basics</div>
+                  <p class="skill-desc">Git workflows and CI fundamentals.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    /*progects*\
+
+    <section id="projects" class="section" aria-label="Projects">
+      <div class="section-title-card" data-aos="fade-up">Projects</div>
+      <div class="inner projects-row">
+        <div class="card full-width-card">
+          <div class="project-container">
+            <div class="project-card vr-phobia-card" data-aos="zoom-in">
+              <img src="assets/phobiaapp.jpg" alt="VR Phobia Treatment" class="project-image">
+              <h4>Graduation Project — VR Phobia Treatment</h4>
+              <p>A VR-based program that treats phobias using Unity and Firebase.</p>
+              <div class="project-button-container">
+                <a href="https://github.com/Yatherdev/Anti-phobia" target="_blank" class="github-link">
+                  <i class="fa-brands fa-github"></i> View on GitHub
+                </a>
+              </div>
+            </div>
+            <div class="project-card cubic-app-card" data-aos="zoom-in" data-aos-delay="100">
+              <img src="assets/cubicapp.jpg" alt="Cubic Timber Trading App" class="project-image">
+              <h4>Cubic — Timber Trading App</h4>
+              <p>A business app for timber traders with Hive, Firebase, and Clean Architecture.</p>
+              <div class="project-button-container">
+                <a href="https://github.com/Yatherdev/WTC" target="_blank" class="github-link">
+                  <i class="fa-brands fa-github"></i> View on GitHub
+                </a>
+              </div>
+            </div>
+            <div class="project-card movie-app-card" data-aos="zoom-in" data-aos-delay="100">
+              <img src="assets/movieapp1.jpg" alt="Cubic Timber Trading App" class="project-image">
+              <h4>Movie app </h4>
+              <p>A movies and TV shows app that displays ratings, cast, detailed info (including revenue), all powered by an external API. Built with Provider, Firebase, Clean Architecture, and smooth animations.</p>
+              <div class="project-button-container">
+                <a href="https://github.com/Yatherdev/DEPI" target="_blank" class="github-link">
+                  <i class="fa-brands fa-github"></i> View on GitHub
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="education" class="section" aria-label="Education">
+      <div class="section-title-card" data-aos="fade-up">Education</div>
+      <div class="inner education-row">
+        <div class="education-card academic-card" data-aos="fade-right">
+          <h3>Academic</h3>
+          <div class="education-content" id="academicContent">
+            <ul class="education-list">
+              <li><strong>Bachelor’s Degree in Computer Science</strong> – Mansoura University</li>
+              <li>Specialized in databases, data analysis, web design, advanced mathematics, etc.</li>
+              <li><strong>Graduation Project: “Anti-Phobia”</strong> – A mobile app to help overcome phobias, earning an Excellent grade.</li>
+              <li>Recognized among the top projects in the faculty by senior professors.</li>
+            </ul>
+          </div>
+          <img src="assets/gradpic.jpg" alt="Graduation Photo" class="education-photo">
+          <button id="academicSeeMore" class="btn btn-outline see-more" data-modal="academicModal">See More</button>
+        </div>
+        <div class="education-card courses-card" data-aos="fade-left" data-aos-delay="200">
+          <h3>Courses & Initiatives</h3>
+          <div class="education-content" id="coursesContent">
+            <ul class="education-list">
+              <li><strong>Full-Stack Mobile Development (Flutter)</strong> – DEPI</li>
+              <li>Skills: Flutter & Dart (Building responsive UIs and managing application state using Provider and BLoC patterns), Backend Integration (Consuming RESTful APIs and parsing JSON data), Firebase Suite (Implementing Firebase for Authentication, Firestore database, and Cloud Storage), Local Storage (Persisting data locally using Shared Preferences and sqflite), Advanced Skills (Applying Clean Architecture principles, writing Unit Tests, and handling Push Notifications).</li>
+              <li><strong>Mobile Application Development (Flutter)</strong> – CCIC, Mansoura University</li>
+              <li>Skills: Dart language fundamentals and Object-Oriented Programming (OOP) principles, UI Development (Designed and built interactive user interfaces using Flutter's rich widget library), Navigation (Managed app navigation and screen transitions efficiently - Routing & Navigation), Software Principles (Applied Clean Code principles and effective project structuring), Problem Solving (Developed the ability to solve complex problems and turn ideas into practical applications).</li>
+              <li><strong>DEPI – Digital Egypt Pioneers Initiative</strong> – Advanced tech training during military service.</li>
+            </ul>
+          </div>
+          <img src="assets/ccic.jpg" alt="CCIC Course Certificate" class="education-photo">
+          <button id="coursesSeeMore" class="btn btn-outline see-more" data-modal="coursesModal">See More</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section" aria-label="Contact">
+      <div class="inner single-col">
+        <div class="card">
+          <h2>Contact</h2>
+          <div class="contact-links">
+            <a href="mailto:Yather.dev@gmail.com" class="contact-icon" aria-label="Email">
+              <i class="fa-solid fa-envelope fa-2x"></i>
+            </a>
+            <a href="https://github.com/Yatherdev" target="_blank" rel="noopener noreferrer" class="contact-icon" aria-label="GitHub">
+              <i class="fa-brands fa-github fa-2x"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/ahmed-yasser" target="_blank" rel="noopener noreferrer" class="contact-icon" aria-label="LinkedIn">
+              <i class="fa-brands fa-linkedin fa-2x"></i>
+            </a>
+          </div>
+          <hr>
+          <form id="contactForm" class="contact-form" aria-label="Contact form">
+            <label for="name">Your Name</label>
+            <input id="name" name="name" placeholder="Your name" required>
+            <label for="email">Your Email</label>
+            <input id="email" name="email" type="email" placeholder="Your email" required>
+            <label for="message">Your Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Your message" required></textarea>
+            <div class="form-actions">
+              <button class="btn" type="submit">Send message</button>
+              <button type="button" class="btn btn-outline" id="openMail">Open mail client</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <footer class="site-footer">
+      <div>Designed by Ahmed Yasser • <span id="year"></span></div>
+    </footer>
+  </main>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
